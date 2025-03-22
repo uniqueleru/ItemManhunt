@@ -1,0 +1,46 @@
+# Item Manhunt Language Configuration
+
+prefix: "&8[&cItem Manhunt&8] &7"
+
+messages:
+  help:
+    - "&6===== &eItem Manhunt 도움말 &6====="
+    - "&e/imh &7- 플러그인 도움말을 봅니다."
+    - "&e/imh setrunner [닉네임] &7- 다음 게임의 도망자를 지정합니다."
+    - "&e/imh start &7- 게임을 시작합니다."
+    - "&e/imh stop &7- 게임을 강제 종료합니다."
+    - "&e/imh reload &7- 설정 파일을 리로드합니다."
+    - "&e/imh config &7- 목표 아이템 설정 GUI를 엽니다."
+  reload: "&a설정 파일이 리로드되었습니다."
+  no-permission: "&c이 명령어를 사용할 권한이 없습니다."
+  runner-set: "&e{player}&a님이 도망자로 지정되었습니다."
+  no-player: "&c플레이어를 찾을 수 없습니다."
+  game-already-running: "&c이미 게임이 진행 중입니다."
+  game-not-running: "&c현재 게임이 진행 중이 아닙니다."
+  runner-not-set: "&c도망자가 지정되지 않았습니다."
+  not-enough-players: "&c게임을 시작하기 위해서는 최소 2명의 플레이어가 필요합니다."
+  no-target-items: "&c활성화된 목표 아이템이 없습니다. &e/imh config &c명령어로 아이템을 활성화하세요."
+  gui-next-page: "&a다음 페이지"
+  gui-prev-page: "&a이전 페이지"
+  item-enabled: "&a활성화됨"
+  item-disabled: "&c비활성화됨"
+  
+titles:
+  game-start:
+    title: "&c아이템 맨헌트"
+    subtitle: "&e목표 아이템: &6{item}"
+  head-start:
+    title: "&c도망자에게 시간이 주어집니다"
+    subtitle: "&e{time}초 남음..."
+  chase-start:
+    title: "&c추격이 시작됩니다!"
+    subtitle: "&e도망자를 잡으세요!"
+  runner-win:
+    title: "&a도망자 승리!"
+    subtitle: "&e{player}님이 {item}을(를) 획득했습니다!"
+  hunter-win:
+    title: "&c추격자 승리!"
+    subtitle: "&e도망자가 사망했습니다!"
+    
+action-bars:
+  distance: "&c도망자와의 거리: &e{distance}블록"

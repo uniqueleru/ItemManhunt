@@ -1,0 +1,17 @@
+# Item Manhunt Configuration
+
+# 초기 도망 시간 (초)
+head-start-time: 60
+
+# 나침반 업데이트 주기 (틱, 20틱 = 1초)
+compass-update-interval: 20
+
+# 게임 중 사용되는 소리 효과
+sounds:
+  game-start: ENTITY_ENDER_DRAGON_GROWL
+  game-end: ENTITY_WITHER_DEATH
+  target-item-found: ENTITY_PLAYER_LEVELUP
+  
+# 게임 시작시 목표 아이템 후보들
+# 이 옵션은 /imh config 명령어로 설정하는 GUI에서 설정한 값이 저장됩니다.
+enabled-items: []

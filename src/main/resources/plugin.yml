@@ -1,5 +1,17 @@
-name: Item Manhunt
+name: Item-Manhunt
 version: '1.0.0'
 main: kr.ieruminecraft.itemmanhunt
 api-version: '1.21'
 authors: [ leru ]
+description: 아이템 맨헌트 플러그인
+
+commands:
+  imh:
+    description: 아이템 맨헌트 메인 명령어
+    usage: /<command> [help|setrunner|start|stop|reload|config]
+    aliases: [itemmanhunt]
+    
+permissions:
+  itemmanhunt.admin:
+    description: 아이템 맨헌트 관리자 권한
+    default: op
